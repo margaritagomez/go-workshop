@@ -1,10 +1,10 @@
 package main
 
 type Pokemon struct {
-	EntryNumber int      `json:"entry_number"`
-	Name        string   `json:"name"`
-	EvolvesTo   *Pokemon `json:"evolves_to,omitempty"`
-	Types       []*Type  `json:"types"`
+	PokedexNumber int    `json:"pokedex_number"`
+	Name          string `json:"name"`
+	EvolvesTo     string `json:"evolves_to,omitempty"`
+	Types         []Type `json:"types"`
 }
 
 type Type string

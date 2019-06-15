@@ -7,6 +7,7 @@ Click [here](https://docs.google.com/presentation/d/1BvCaYkk_Dzeeaj4E63Bgb34BkLo
 You will need:
 * An IDE, ideally [Visual Studio Code](https://code.visualstudio.com/download).
 * [Go](https://golang.org/dl/)
+* [Postman](https://www.getpostman.com/downloads/)
 
 Once you've downloaded them both, open VS Code and in the extensions tab search for the Go syntax highlighter, it should appear by searching "Go".
 

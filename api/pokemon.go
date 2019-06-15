@@ -28,4 +28,5 @@ type Pokemon struct {
 	Name          string `json:"name"`
 	EvolvesTo     string `json:"evolves_to,omitempty"`
 	Types         []Type `json:"types"`
+	Level         int    `json:"level"`
 }

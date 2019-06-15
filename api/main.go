@@ -12,6 +12,7 @@ func init() {
 			PokedexNumber: 1,
 			Name:          "Bulbasaur",
 			EvolvesTo:     "Ivysaur",
+			Level:         25,
 			Types: []Type{
 				TypeGrass,
 				TypePoison,
